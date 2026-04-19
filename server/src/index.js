@@ -1,7 +1,6 @@
 import { app } from "./app.js";
 import { connectDb } from "./config/db.js";
 import { env } from "./config/env.js";
-import { seedDemoData } from "./shared/seed.js";
 
 async function bootstrap() {
   await connectDb();
